@@ -21,7 +21,11 @@ How do you Calculate CheckDigit by PowerQuery in Excel ?
 
 It is to calculate CheckDigit under one.
 
-- 456995111617
+|digit Number|13|12|11|10|9|8|7|6|5|4|3|2|1|
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+|sample|4|5|6|9|9|5|1|1|1|6|1|7| |
+|even digits| |5| |9| |7| |2| |6| |7| |
+|odd digits|4| |6| |9| |1| |1| |1| | |
 
 1. add all even digits
    - 5 + 9 + 5 + 1 + 6 + 7 = 33
