@@ -24,6 +24,7 @@ let
     //     add digits divided by 10 with a reminder
     //     10 - reminder and devided by 10 with a reminder
     ,10),10)),
+    // cocat EAN12 column and checkdigit column
     AddCustom2 = Table.AddColumn(AddCustom, "EAN13", each [EAN12]&Number.ToText([checkdigit]))
 in
     AddCustom2
